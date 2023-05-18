@@ -1,0 +1,14 @@
+<changelist name="在进行更新之前于_2023_5_18_16_01_取消提交了更改_[变更]" date="1684396868753" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2023_5_18_16_01_取消提交了更改_[变更]/shelved.patch" />
+  <option name="DESCRIPTION" value="在进行更新之前于 2023/5/18 16:01 取消提交了更改 [变更]" />
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/Clown_CC1/POC2.class" />
+    <option name="AFTER_PATH" value="target/classes/Clown_CC1/POC2.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2023_5_18_16_01_取消提交了更改_[变更]/POC2.class" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="target/classes/Clown_CC1/POC1.class" />
+    <option name="AFTER_PATH" value="target/classes/Clown_CC1/POC1.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2023_5_18_16_01_取消提交了更改_[变更]/POC1.class" />
+  </binary>
+</changelist>

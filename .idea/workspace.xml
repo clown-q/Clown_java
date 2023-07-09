@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e1913d7-9467-4238-86d5-cf122b1582b3" name="变更" comment="变更">
-      <change afterPath="$PROJECT_DIR$/src/main/java/DynamicPriorityScheduler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/_2023_5_18_16_01____.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2023_5_18_16_01_取消提交了更改_[变更]/POC1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2023_5_18_16_01_取消提交了更改_[变更]/POC2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/在进行更新之前于_2023_5_18_16_01_取消提交了更改_[变更]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,8 +36,8 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\phpstudy_pro\Extensions\apache-maven-3.9.0\springrepo" />
-        <option name="mavenHome" value="D:/phpstudy_pro/Extensions/apache-maven-3.9.0" />
+        <option name="localRepository" value="D:\phpstudy_pro\Extensions\apache-maven-3.9.0\Springrepo2" />
+        <option name="useMavenConfig" value="true" />
         <option name="userSettingsFile" value="D:\phpstudy_pro\Extensions\apache-maven-3.9.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -64,7 +66,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.41034484",
-    "settings.editor.selected.configurable": "com.obiscr.chatgpt.settings.GPT3-3.5-Turbo",
+    "settings.editor.selected.configurable": "configurable.group.build",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -124,7 +126,7 @@
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
-    <configuration>C:\Users\陌路\AppData\Roaming\Subversion</configuration>
+    <configuration>C:\Users\Clown\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="默认任务">
@@ -184,7 +186,8 @@
       <workItem from="1685018264655" duration="1649000" />
       <workItem from="1685160569680" duration="106000" />
       <workItem from="1685281535288" duration="916000" />
-      <workItem from="1688802571774" duration="5092000" />
+      <workItem from="1688802571774" duration="5416000" />
+      <workItem from="1688885683688" duration="78000" />
     </task>
     <task id="LOCAL-00001" summary="变更">
       <created>1684241141179</created>
@@ -221,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684581365984</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="变更">
+      <created>1688885414862</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1688885414862</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

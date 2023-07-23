@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e1913d7-9467-4238-86d5-cf122b1582b3" name="变更" comment="变更">
-      <change afterPath="$PROJECT_DIR$/src/main/java/CommonsCollection/Clown_CC3/POC2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/CommonsCollection/Clown_CC3/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaSE/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaSE/objectOriented/PersonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaSE/objectOriented/StudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaSE/objectOriented/TeacherTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaSE/objectOriented/testMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/poc1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CommonsCollection/Clown_CC3/POC1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CommonsCollection/Clown_CC3/POC1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CommonsCollection/Clown_CC3/POC1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CommonsCollection/Clown_CC3/POC1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CommonsCollection/Clown_CC3/POC2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CommonsCollection/Clown_CC3/POC2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CommonsCollection/Clown_CC3/POC2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CommonsCollection/Clown_CC3/POC2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,27 +54,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/Java/jdk1.8.0_73/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.41034484",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Java/jdk1.8.0_73/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.41034484&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.POC2">
+}</component>
+  <component name="RunManager" selected="Application.testMain">
     <configuration name="POC复盘" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CommonsCollection.Clown_CC1.POC复盘" />
       <module name="study_java" />
@@ -117,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="URlClassLoadertest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CommonsCollection.Clown_CC3.URlClassLoadertest" />
+    <configuration name="testMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaSE.objectOriented.testMain" />
       <module name="study_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="CommonsCollection.Clown_CC3.*" />
+          <option name="PATTERN" value="JavaSE.objectOriented.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,6 +136,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.testMain" />
         <item itemvalue="Application.POC2" />
         <item itemvalue="Application.POC1" />
         <item itemvalue="Application.POC复盘" />
@@ -203,7 +208,10 @@
       <workItem from="1685281535288" duration="916000" />
       <workItem from="1688802571774" duration="5416000" />
       <workItem from="1688885683688" duration="259000" />
-      <workItem from="1688885951435" duration="23713000" />
+      <workItem from="1688885951435" duration="24222000" />
+      <workItem from="1689595926477" duration="7000" />
+      <workItem from="1689935946601" duration="741000" />
+      <workItem from="1689988534782" duration="19521000" />
     </task>
     <task id="LOCAL-00001" summary="变更">
       <created>1684241141179</created>
@@ -268,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688895310898</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="变更">
+      <created>1688960911034</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1688960911034</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

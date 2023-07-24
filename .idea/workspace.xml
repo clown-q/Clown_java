@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e1913d7-9467-4238-86d5-cf122b1582b3" name="变更" comment="变更">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaSE/objectOriented/InnerClass1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaSE/objectOriented/MainTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaSE/objectOriented/PackageClassTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaSE/objectOriented/PersonTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaSE/objectOriented/PersonTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaSE/objectOriented/PersonTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaSE/objectOriented/StudentTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaSE/objectOriented/TeacherTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaSE/objectOriented/testMain.class" beforeDir="false" />
-    </list>
+    <list default="true" id="6e1913d7-9467-4238-86d5-cf122b1582b3" name="变更" comment="变更" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -215,7 +204,7 @@
       <workItem from="1688885951435" duration="24222000" />
       <workItem from="1689595926477" duration="7000" />
       <workItem from="1689935946601" duration="741000" />
-      <workItem from="1689988534782" duration="31249000" />
+      <workItem from="1689988534782" duration="32041000" />
     </task>
     <task id="LOCAL-00001" summary="变更">
       <created>1684241141179</created>
@@ -301,7 +290,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690156617161</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="变更">
+      <created>1690182319058</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1690182319058</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

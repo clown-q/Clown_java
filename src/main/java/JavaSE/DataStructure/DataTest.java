@@ -38,13 +38,29 @@ public class DataTest {
 //        System.out.println(stackLinked.pop());
 //        System.out.println(stackLinked);
 //    }
+
+//    public static void main(String[] args) { //队列
+//        Queue_Listed<Integer> queueListed =new Queue_Listed<>();
+//        queueListed.add(10);
+//        queueListed.add(10);
+//        queueListed.add(10);
+//        System.out.println(queueListed);
+//        System.out.println(queueListed.remove());
+//        System.out.println(queueListed);
+//    }
     public static void main(String[] args) {
-        Queue_Listed<Integer> queueListed =new Queue_Listed<>();
-        queueListed.add(10);
-        queueListed.add(10);
-        queueListed.add(10);
-        System.out.println(queueListed);
-        System.out.println(queueListed.remove());
-        System.out.println(queueListed);
+        BinaryTree<Character> binaryTree1 = new BinaryTree<>('A');
+        BinaryTree<Character> binaryTree2 = new BinaryTree<>('B');
+        BinaryTree<Character> binaryTree3 = new BinaryTree<>('C');
+        BinaryTree<Character> binaryTree4 = new BinaryTree<>('D');
+        BinaryTree<Character> binaryTree5 = new BinaryTree<>('E');
+        BinaryTree<Character> binaryTree6 = new BinaryTree<>('F');
+        BinaryTree<Character> binaryTree7 = new BinaryTree<>('G');
+        binaryTree1.left = binaryTree2;
+        binaryTree1.right = binaryTree3;
+        binaryTree2.left = binaryTree4;
+        binaryTree2.right = binaryTree5;
+        binaryTree3.left = binaryTree6;
+        binaryTree3.right = binaryTree7;
     }
 }

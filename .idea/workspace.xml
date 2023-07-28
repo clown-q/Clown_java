@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e1913d7-9467-4238-86d5-cf122b1582b3" name="变更" comment="变更">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaSE/DataStructure/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaSE/Gather/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaSE/DataStructure/DataTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaSE/DataStructure/DataTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/JavaSE/DataStructure/DataTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaSE/DataStructure/DataTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +65,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.DataTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="DataTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="JavaSE.DataStructure.DataTest" />
       <module name="study_java" />
@@ -105,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaSE.objectOriented.MainTest" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaSE.Gather.Main" />
       <module name="study_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaSE.objectOriented.*" />
+          <option name="PATTERN" value="JavaSE.Gather.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.DataTest" />
         <item itemvalue="Application.FunctionInterface" />
         <item itemvalue="Application.EmptyTest" />
         <item itemvalue="Application.Test" />
-        <item itemvalue="Application.MainTest" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +209,8 @@
       <workItem from="1689595926477" duration="7000" />
       <workItem from="1689935946601" duration="741000" />
       <workItem from="1689988534782" duration="46098000" />
-      <workItem from="1690340334398" duration="16945000" />
+      <workItem from="1690340334398" duration="29478000" />
+      <workItem from="1690504249536" duration="693000" />
     </task>
     <task id="LOCAL-00001" summary="变更">
       <created>1684241141179</created>
@@ -337,7 +338,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690361331774</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="变更">
+      <created>1690368113467</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1690368113468</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

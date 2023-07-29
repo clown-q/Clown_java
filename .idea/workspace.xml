@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e1913d7-9467-4238-86d5-cf122b1582b3" name="变更" comment="变更">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaSE/OperationsIO/CharacterStreamIntput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaSE/OperationsIO/CharacterStreamOuttput.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaSE/OperationsIO/FileCopyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaSE/OperationsIO/FileInputStreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaSE/OperationsIO/FileOutputStreamTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaSE/OperationsIO/BufferedInputSteamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaSE/OperationsIO/ObjectStreamTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaSE/OperationsIO/PrintTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/JavaSE/OperationsIO/FileTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaSE/OperationsIO/FileTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,22 +68,9 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.FileCopyTest">
-    <configuration name="CharacterStreamIntput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaSE.OperationsIO.CharacterStreamIntput" />
-      <module name="study_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaSE.OperationsIO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CharacterStreamOuttput" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaSE.OperationsIO.CharacterStreamOuttput" />
+  <component name="RunManager" selected="Application.ObjectStreamTest">
+    <configuration name="BufferedInputSteamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaSE.OperationsIO.BufferedInputSteamTest" />
       <module name="study_java" />
       <extension name="coverage">
         <pattern>
@@ -109,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileInputStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaSE.OperationsIO.FileInputStreamTest" />
+    <configuration name="FileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaSE.OperationsIO.FileTest" />
       <module name="study_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaSE.OperationsIO.FileInputStreamTest" />
+          <option name="PATTERN" value="JavaSE.OperationsIO.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,8 +108,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileOutputStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaSE.OperationsIO.FileOutputStreamTest" />
+    <configuration name="ObjectStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaSE.OperationsIO.ObjectStreamTest" />
+      <module name="study_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaSE.OperationsIO.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaSE.OperationsIO.PrintTest" />
       <module name="study_java" />
       <extension name="coverage">
         <pattern>
@@ -137,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjectStreamTest" />
+        <item itemvalue="Application.PrintTest" />
+        <item itemvalue="Application.BufferedInputSteamTest" />
+        <item itemvalue="Application.FileTest" />
         <item itemvalue="Application.FileCopyTest" />
-        <item itemvalue="Application.CharacterStreamOuttput" />
-        <item itemvalue="Application.CharacterStreamIntput" />
-        <item itemvalue="Application.FileOutputStreamTest" />
-        <item itemvalue="Application.FileInputStreamTest" />
       </list>
     </recent_temporary>
   </component>
@@ -214,7 +213,7 @@
       <workItem from="1689935946601" duration="741000" />
       <workItem from="1689988534782" duration="46098000" />
       <workItem from="1690340334398" duration="29478000" />
-      <workItem from="1690504249536" duration="12990000" />
+      <workItem from="1690504249536" duration="19851000" />
     </task>
     <task id="LOCAL-00001" summary="变更">
       <created>1684241141179</created>
@@ -356,7 +355,21 @@
       <option name="project" value="LOCAL" />
       <updated>1690513402055</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="变更">
+      <created>1690534532987</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1690534532987</updated>
+    </task>
+    <task id="LOCAL-00022" summary="变更">
+      <created>1690534536694</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1690534536694</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

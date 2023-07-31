@@ -20,7 +20,7 @@ public class MultithreadingTest {
                 System.out.println("线程二");
             }
         });
-        thread.start();
+        thread.start();  //启动线程
         thread1.start();
     }
 }

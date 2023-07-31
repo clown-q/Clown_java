@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e1913d7-9467-4238-86d5-cf122b1582b3" name="变更" comment="变更" />
+    <list default="true" id="6e1913d7-9467-4238-86d5-cf122b1582b3" name="变更" comment="变更">
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaSE/Multithreading/InterruptTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaSE/Multithreading/MultithreadingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JavaSE/Multithreading/SleepTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,13 +66,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.ObjectStreamTest">
-    <configuration name="BufferedInputSteamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaSE.OperationsIO.BufferedInputSteamTest" />
+  <component name="RunManager" selected="Application.InterruptTest">
+    <configuration name="InterruptTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaSE.Multithreading.InterruptTest" />
       <module name="study_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaSE.OperationsIO.*" />
+          <option name="PATTERN" value="JavaSE.Multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +80,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileCopyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaSE.OperationsIO.FileCopyTest" />
+    <configuration name="MultithreadingTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaSE.Multithreading.MultithreadingTest" />
       <module name="study_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaSE.OperationsIO.*" />
+          <option name="PATTERN" value="JavaSE.Multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaSE.OperationsIO.FileTest" />
+    <configuration name="MultithreadingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaSE.Multithreading.MultithreadingTest" />
       <module name="study_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaSE.OperationsIO.*" />
+          <option name="PATTERN" value="JavaSE.Multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectStreamTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaSE.OperationsIO.ObjectStreamTest" />
+    <configuration name="MultithreadingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaSE.Multithreading.MultithreadingTest" />
       <module name="study_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaSE.OperationsIO.*" />
+          <option name="PATTERN" value="JavaSE.Multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,12 +119,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaSE.OperationsIO.PrintTest" />
+    <configuration name="MultithreadingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaSE.Multithreading.MultithreadingTest" />
       <module name="study_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaSE.OperationsIO.*" />
+          <option name="PATTERN" value="JavaSE.Multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SleepTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaSE.Multithreading.SleepTest" />
+      <module name="study_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JavaSE.Multithreading.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ObjectStreamTest" />
-        <item itemvalue="Application.PrintTest" />
-        <item itemvalue="Application.BufferedInputSteamTest" />
-        <item itemvalue="Application.FileTest" />
-        <item itemvalue="Application.FileCopyTest" />
+        <item itemvalue="Application.InterruptTest" />
+        <item itemvalue="Application.SleepTest" />
+        <item itemvalue="Application.MultithreadingTest" />
+        <item itemvalue="Application.MultithreadingTest (2)" />
+        <item itemvalue="Application.MultithreadingTest (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +225,8 @@
       <workItem from="1689988534782" duration="46098000" />
       <workItem from="1690340334398" duration="29478000" />
       <workItem from="1690504249536" duration="20398000" />
-      <workItem from="1690589977513" duration="319000" />
+      <workItem from="1690589977513" duration="1858000" />
+      <workItem from="1690760728593" duration="5859000" />
     </task>
     <task id="LOCAL-00001" summary="变更">
       <created>1684241141179</created>
@@ -384,7 +403,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690589991855</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="变更">
+      <created>1690590466451</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1690590466451</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

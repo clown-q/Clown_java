@@ -5,27 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e1913d7-9467-4238-86d5-cf122b1582b3" name="变更" comment="变更">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/URLDNS.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/poc1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CommonsCollection/Clown_CC6/POC1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CommonsCollection/Clown_CC6/POC1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Clown_Serialization/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Clown_Serialization/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CommonsCollection/Clown_CC1/POC1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CommonsCollection/Clown_CC1/POC1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/CommonsCollection/Clown_CC6/POC1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/CommonsCollection/Clown_CC6/POC1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaSE/DataStructure/SequenceTable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaSE/DataStructure/SequenceTable.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaSE/Multithreading/Abdicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaSE/Multithreading/Abdicate.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaSE/Multithreading/DeadLock.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaSE/Multithreading/DeadLock.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaSE/Multithreading/InterruptPause.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaSE/Multithreading/InterruptPause.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaSE/Multithreading/InterruptTestStop.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaSE/Multithreading/InterruptTestStop.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaSE/Multithreading/Merge.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaSE/Multithreading/Merge.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaSE/Multithreading/MultithreadingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaSE/Multithreading/MultithreadingTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaSE/Multithreading/Priority.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaSE/Multithreading/Priority.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaSE/Multithreading/SleepTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaSE/Multithreading/SleepTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaSE/Multithreading/SynchronizationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaSE/Multithreading/SynchronizationTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaSE/objectOriented/MainTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaSE/objectOriented/MainTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestClass.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +206,7 @@
       <workItem from="1690589977513" duration="1858000" />
       <workItem from="1690760728593" duration="30783000" />
       <workItem from="1690939220681" duration="30427000" />
-      <workItem from="1691144618467" duration="612000" />
+      <workItem from="1691144618467" duration="3064000" />
     </task>
     <task id="LOCAL-00001" summary="变更">
       <created>1684241141179</created>
@@ -445,7 +425,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690981991064</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="变更">
+      <created>1691149897201</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1691149897201</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

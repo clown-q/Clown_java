@@ -1,7 +1,6 @@
 package JavaJVM.JVMMemory;
 
 import java.util.ArrayList;
-import java.util.List;
 
 /**
  * @BelongsProject: study_java
@@ -10,12 +9,10 @@ import java.util.List;
  * @CreateTime: 2023-09-08  15:24
  */
 public class test5 {
-    static class test{
-    }
     public static void main(String[] args){
-        List<test> list = new ArrayList();
+        ArrayList list = new ArrayList();
         while (true){
-            list.add(new test());
+            list.add(new Object());
         }
     }
 }

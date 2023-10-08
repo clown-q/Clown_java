@@ -5,10 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e1913d7-9467-4238-86d5-cf122b1582b3" name="变更" comment="变更">
-      <change afterPath="$PROJECT_DIR$/src/main/java/JavaJVM/ClassLoaderTest/ASMTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lib/unboundid-ldapsdk-3.2.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Fastjson/FastjsonTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JNDI/JNDIExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JNDI/JNDI_LDAP/JNDILDAPClinet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JNDI/JNDI_LDAP/JNDILDAPServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JNDI/JNDI_RMI/JNDIRMIClinet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JNDI/JNDI_RMI/JNDIRMIServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JNDI/JNDI_RMI/RMIRemote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JNDI/JNDI_RMI/RMIRemote_Interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JNDI/JNDI_RMI/RMIServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JNDI/JNDI_RMI/RMiClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JNDI/JNDI_RMI/Registry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/T.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JavaJVM/TestJVM.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/JavaJVM/TestJVM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/JavaJVM/TestJVM.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/JavaJVM/TestJVM.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Clown_RMI_code/RMIClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Clown_RMI_code/RMIClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Clown_RMI_code/RemoteServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Clown_RMI_code/RemoteServer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Clown_RMI_code/RMIClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Clown_RMI_code/RMIClient.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +33,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -52,7 +68,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Clown/Desktop/shirodemo&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/study_java/src/lib/unboundid-ldapsdk-3.2.0.jar&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -70,18 +86,26 @@
     ]
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\study_java\src\lib" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="h" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.ASMTest">
-    <configuration name="ASMTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaJVM.ClassLoaderTest.ASMTest" />
+  <component name="RunManager" selected="Application.JNDILDAPClinet">
+    <configuration name="JNDILDAPClinet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JNDI.JNDI_LDAP.JNDILDAPClinet" />
       <module name="study_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaJVM.ClassLoaderTest.*" />
+          <option name="PATTERN" value="JNDI.JNDI_LDAP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -89,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccessibilityAnalysis" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaJVM.GC.AccessibilityAnalysis" />
+    <configuration name="JNDILDAPServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JNDI.JNDI_LDAP.JNDILDAPServer" />
       <module name="study_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaJVM.GC.*" />
+          <option name="PATTERN" value="JNDI.JNDI_LDAP.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,13 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LastRadianceOfTheSettingSun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaJVM.GC.LastRadianceOfTheSettingSun" />
+    <configuration name="JNDIRMIClinet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JNDI.JNDI_RMI.JNDIRMIClinet" />
       <module name="study_java" />
-      <option name="VM_PARAMETERS" value="-XX:+PrintGCDetails" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaJVM.GC.*" />
+          <option name="PATTERN" value="JNDI.JNDI_RMI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +139,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReferenceCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="JavaJVM.GC.ReferenceCount" />
+    <configuration name="JNDIRMIServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JNDI.JNDI_RMI.JNDIRMIServer" />
       <module name="study_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="JavaJVM.GC.*" />
+          <option name="PATTERN" value="JNDI.JNDI_RMI.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Registry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JNDI.JNDI_RMI.Registry" />
+      <module name="study_java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JNDI.JNDI_RMI.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,10 +167,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ASMTest" />
-        <item itemvalue="Application.LastRadianceOfTheSettingSun" />
-        <item itemvalue="Application.ReferenceCount" />
-        <item itemvalue="Application.AccessibilityAnalysis" />
+        <item itemvalue="Application.JNDILDAPClinet" />
+        <item itemvalue="Application.JNDILDAPServer" />
+        <item itemvalue="Application.JNDIRMIClinet" />
+        <item itemvalue="Application.JNDIRMIServer" />
+        <item itemvalue="Application.Registry" />
       </list>
     </recent_temporary>
   </component>
@@ -225,7 +262,14 @@
       <workItem from="1694228657736" duration="8311000" />
       <workItem from="1694408638917" duration="13000" />
       <workItem from="1694416226605" duration="9954000" />
-      <workItem from="1694516083647" duration="2679000" />
+      <workItem from="1694516083647" duration="4469000" />
+      <workItem from="1694659665283" duration="5113000" />
+      <workItem from="1694761600605" duration="7000" />
+      <workItem from="1695101971480" duration="657000" />
+      <workItem from="1695346578675" duration="867000" />
+      <workItem from="1695432086020" duration="26779000" />
+      <workItem from="1695539149099" duration="1722000" />
+      <workItem from="1696734076362" duration="2084000" />
     </task>
     <task id="LOCAL-00001" summary="变更">
       <created>1684241141179</created>
@@ -528,7 +572,21 @@
       <option name="project" value="LOCAL" />
       <updated>1694317546441</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="变更">
+      <created>1694521983800</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1694521983800</updated>
+    </task>
+    <task id="LOCAL-00045" summary="变更">
+      <created>1694521989096</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1694521989096</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -606,6 +664,51 @@
           <url>jar://D:/Java/jdk1.8.0_382/src.zip!/java/util/PriorityQueue.java</url>
           <line>781</line>
           <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/JNDI/JNDI_RMI/JNDIRMIClinet.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_73/src.zip!/javax/naming/InitialContext.java</url>
+          <line>416</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/JNDI/JNDI_LDAP/JNDILDAPClinet.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="50" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_73/jre/lib/rt.jar!/com/sun/jndi/ldap/LdapCtx.class</url>
+          <line>665</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_73/jre/lib/rt.jar!/com/sun/jndi/ldap/LdapCtx.class</url>
+          <line>721</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_382/src.zip!/com/sun/jndi/ldap/LdapCtx.java</url>
+          <line>1050</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_382/src.zip!/com/sun/jndi/ldap/LdapCtx.java</url>
+          <line>1078</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_382/src.zip!/com/sun/jndi/ldap/LdapCtx.java</url>
+          <line>1112</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://D:/Java/jdk1.8.0_382/src.zip!/javax/naming/spi/DirectoryManager.java</url>
+          <line>188</line>
+          <option name="timeStamp" value="57" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

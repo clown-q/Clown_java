@@ -4,6 +4,7 @@ import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.registry.Registry;
+import java.util.Arrays;
 
 public class RMIClient {
     public static void main(String[] args) throws Exception, RemoteException, NotBoundException {
@@ -14,6 +15,6 @@ public class RMIClient {
         // 根据服务名在 RMI 注册表中查找远程对象的 stub
         IRemoteHelloWorld stub = (IRemoteHelloWorld) registry.lookup("Hello");
         // 调用远程对象的方法并打印结果
-        System.out.println(stub.hello());
+        System.out.println(stub.test());
     }
 }

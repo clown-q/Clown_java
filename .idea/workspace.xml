@@ -5,25 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e1913d7-9467-4238-86d5-cf122b1582b3" name="变更" comment="变更">
-      <change afterPath="$PROJECT_DIR$/src/lib/unboundid-ldapsdk-3.2.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Fastjson/FastjsonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JNDI/JNDIExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JNDI/JNDI_LDAP/JNDILDAPClinet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JNDI/JNDI_LDAP/JNDILDAPServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JNDI/JNDI_RMI/JNDIRMIClinet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JNDI/JNDI_RMI/JNDIRMIServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JNDI/JNDI_RMI/RMIRemote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JNDI/JNDI_RMI/RMIRemote_Interface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JNDI/JNDI_RMI/RMIServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JNDI/JNDI_RMI/RMiClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/JNDI/JNDI_RMI/Registry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/T.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Clown_RMI_code/RMIClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Clown_RMI_code/RMIClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Clown_RMI_code/RemoteServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Clown_RMI_code/RemoteServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Clown_RMI_code/RMIClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Clown_RMI_code/RMIClient.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -269,7 +251,7 @@
       <workItem from="1695346578675" duration="867000" />
       <workItem from="1695432086020" duration="26779000" />
       <workItem from="1695539149099" duration="1722000" />
-      <workItem from="1696734076362" duration="2084000" />
+      <workItem from="1696734076362" duration="2255000" />
     </task>
     <task id="LOCAL-00001" summary="变更">
       <created>1684241141179</created>
@@ -586,7 +568,21 @@
       <option name="project" value="LOCAL" />
       <updated>1694521989096</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="变更">
+      <created>1696736755718</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1696736755718</updated>
+    </task>
+    <task id="LOCAL-00047" summary="变更">
+      <created>1696736779846</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1696736779846</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

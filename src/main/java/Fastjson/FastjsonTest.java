@@ -17,8 +17,8 @@ public class FastjsonTest {
 //        Test test = new Test();
 //        String str = JSON.toJSONString(test);
 //        System.out.println(str);
-//        String str = "{\"@type\":\"Fastjson.Test\",\"age\":18,\"name\":\"aaa\"}";
-        String str = "{\"@type\":\"Fastjson.demo\",\"cmd\":\"calc\"}}";
+        String str = "{\"@type\":\"Fastjson.Test\",\"age\":18,\"Test\":\"aaa\"}";
+//        String str = "{\"@type\":\"Fastjson.demo\",\"cmd\":\"calc\"}}";
         JSONObject jsonObject = JSON.parseObject(str);
         System.out.println(jsonObject.toString());
     }

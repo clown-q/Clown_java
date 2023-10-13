@@ -24,7 +24,7 @@ public class URLDNSTest {
 
     public static void main(String[] args) throws Exception{
         HashMap hashMap = new HashMap();
-        URL url = new URL("http://lx3gv6.dnslog.cn");
+        URL url = new URL("http://lyvjkhojjz.dgrh3.cn");
 
         /********反射*******/
         //将hashCode的值不改为*1

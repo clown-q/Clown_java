@@ -5,33 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6e1913d7-9467-4238-86d5-cf122b1582b3" name="变更" comment="变更">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/unboundid_ldapsdk_3_2_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/unboundid_ldapsdk_3_2_0__2_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/unboundid_ldapsdk_3_2_0__3_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/unboundid_ldapsdk_3_2_0__4_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/unboundid_ldapsdk_3_2_0__5_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/unboundid_ldapsdk_3_2_0__6_.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Fastjson/version42/poc42.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jackson/CVE_2020_36187.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jackson/jacksonAnnotation/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jackson/jacksonAnnotation/demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jackson/jacksonDefaultTyping/Demo1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jackson/jacksonDefaultTyping/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jackson/jacksonDefaultTyping/Demo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jackson/jacksonDefaultTyping/Person1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jackson/jacksonDefaultTyping/Person2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jackson/jacksonDefaultTyping/Person3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jackson/jacksonDefaultTyping/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/jackson/test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/unboundid_ldapsdk_3_2_0__8_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/unboundid_ldapsdk_3_2_0__9_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ClassLoaderStudy/ClassLoaderIsolate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ClassLoaderStudy/URLClassLoaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ClassLoaderStudy/UserClassloaderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ClassLoaderStudy/ClassLoaderIsolate$ClassLoaderA.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ClassLoaderStudy/ClassLoaderIsolate$ClassLoaderB.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ClassLoaderStudy/ClassLoaderIsolate.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ClassLoaderStudy/URLClassLoaderTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ClassLoaderStudy/UserClassloaderTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/jackson/CVE_2020_36186.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poc1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/poc1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/URLDNS.txt" beforeDir="false" afterPath="$PROJECT_DIR$/URLDNS.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/B.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Clown_URLDNS/URLDNSTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Clown_URLDNS/URLDNSTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Fastjson/version25to41/poc25to41JNI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Fastjson/version25to41/poc25to41JNI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/TestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TestClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jackson/CVE_2020_36187.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jackson/CVE_2020_36187.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/jackson/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/jackson/CVE_2020_36186.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/B.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Clown_URLDNS/URLDNSTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Clown_URLDNS/URLDNSTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Fastjson/version25to41/poc25to41JNI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Fastjson/version25to41/poc25to41JNI.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/TestClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/TestClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jackson/CVE_2020_36187.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jackson/CVE_2020_36187.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jackson/test.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +48,17 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="jar://D:/Java/jdk1.8.0_382/src.zip!/java/lang/ClassLoader.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://D:/Java/jdk1.8.0_382/src.zip!/java/lang/reflect/Method.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://D:/Java/jdk1.8.0_382/src.zip!/sun/reflect/DelegatingMethodAccessorImpl.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://D:/Java/jdk1.8.0_382/src.zip!/sun/reflect/NativeMethodAccessorImpl.java" root0="SKIP_INSPECTION" />
     <setting file="jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1-sources.jar!/com/fasterxml/jackson/databind/deser/BeanDeserializer.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1-sources.jar!/com/fasterxml/jackson/databind/deser/impl/MethodProperty.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1-sources.jar!/com/fasterxml/jackson/databind/ser/BeanPropertyWriter.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1-sources.jar!/com/fasterxml/jackson/databind/ser/DefaultSerializerProvider.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1-sources.jar!/com/fasterxml/jackson/databind/ser/std/BeanSerializerBase.java" root0="SKIP_INSPECTION" />
+    <setting file="jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/newrelic/agent/java/newrelic-agent/3.38.0/newrelic-agent-3.38.0.jar!/com/newrelic/agent/deps/ch/qos/logback/core/db/JNDIConnectionSource.class" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/src/main/java/jackson/jacksonDefaultTyping/test.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -80,17 +87,17 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "Rebasing master",
     "last_opened_file_path": "E:/study_java/src/lib/unboundid-ldapsdk-3.2.0.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.41034484",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -112,13 +119,13 @@
       <command value="h" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.test">
-    <configuration name="Demo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jackson.jacksonDefaultTyping.Demo1" />
+  <component name="RunManager" selected="Application.poc24Bcel">
+    <configuration name="ClassLoaderIsolate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassLoaderStudy.ClassLoaderIsolate" />
       <module name="study_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jackson.jacksonDefaultTyping.*" />
+          <option name="PATTERN" value="ClassLoaderStudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,12 +133,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jackson.jacksonDefaultTyping.Demo2" />
+    <configuration name="TestClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TestClass" />
+      <module name="study_java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="URLClassLoaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassLoaderStudy.URLClassLoaderTest" />
       <module name="study_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jackson.jacksonDefaultTyping.*" />
+          <option name="PATTERN" value="ClassLoaderStudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,12 +153,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jackson.jacksonDefaultTyping.Demo3" />
+    <configuration name="UserClassloaderTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ClassLoaderStudy.UserClassloaderTest" />
       <module name="study_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jackson.jacksonDefaultTyping.*" />
+          <option name="PATTERN" value="ClassLoaderStudy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -152,25 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="jackson.jacksonAnnotation.demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jackson.jacksonAnnotation.demo" />
+    <configuration name="poc24Bcel" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Fastjson.version24.poc24Bcel" />
       <module name="study_java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jackson.jacksonAnnotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jackson.jacksonDefaultTyping.test" />
-      <module name="study_java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="jackson.jacksonDefaultTyping.*" />
+          <option name="PATTERN" value="Fastjson.version24.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.Demo2" />
-        <item itemvalue="Application.jackson.jacksonAnnotation.demo" />
-        <item itemvalue="Application.Demo3" />
-        <item itemvalue="Application.Demo1" />
+        <item itemvalue="Application.poc24Bcel" />
+        <item itemvalue="Application.ClassLoaderIsolate" />
+        <item itemvalue="Application.URLClassLoaderTest" />
+        <item itemvalue="Application.UserClassloaderTest" />
+        <item itemvalue="Application.TestClass" />
       </list>
     </recent_temporary>
   </component>
@@ -300,35 +301,11 @@
       <workItem from="1698290415375" duration="68000" />
       <workItem from="1698290617794" duration="28000" />
       <workItem from="1698290772994" duration="239000" />
-      <workItem from="1698291020829" duration="8859000" />
-    </task>
-    <task id="LOCAL-00008" summary="变更">
-      <created>1688885823377</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1688885823377</updated>
-    </task>
-    <task id="LOCAL-00009" summary="变更">
-      <created>1688895310898</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1688895310898</updated>
-    </task>
-    <task id="LOCAL-00010" summary="变更">
-      <created>1688960911034</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1688960911034</updated>
-    </task>
-    <task id="LOCAL-00011" summary="变更">
-      <created>1690156611966</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1690156611966</updated>
+      <workItem from="1698291020829" duration="9922000" />
+      <workItem from="1698460320402" duration="10869000" />
+      <workItem from="1698491522524" duration="3429000" />
+      <workItem from="1698552963734" duration="13803000" />
+      <workItem from="1698726399739" duration="9108000" />
     </task>
     <task id="LOCAL-00012" summary="变更">
       <created>1690156617161</created>
@@ -645,7 +622,35 @@
       <option name="project" value="LOCAL" />
       <updated>1697286373449</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="变更">
+      <created>1698384999283</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1698384999283</updated>
+    </task>
+    <task id="LOCAL-00058" summary="变更">
+      <created>1698385004603</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1698385004603</updated>
+    </task>
+    <task id="LOCAL-00059" summary="变更">
+      <created>1698495406027</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1698495406027</updated>
+    </task>
+    <task id="LOCAL-00060" summary="变更">
+      <created>1698495414793</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1698495414793</updated>
+    </task>
+    <option name="localTasksCounter" value="61" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -700,277 +705,10 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <breakpoint enabled="true" type="java-exception">
-          <properties class="java.lang.NoClassDefFoundError" package="java.lang" />
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ClassLoaderStudy/ClassLoaderIsolate.java</url>
+          <line>62</line>
           <option name="timeStamp" value="2" />
-        </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://D:/Java/jdk1.8.0_65/src/sun/reflect/annotation/AnnotationInvocationHandler.java</url>
-          <line>427</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://D:/Java/jdk1.8.0_65/src/sun/reflect/annotation/AnnotationInvocationHandler.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/Java/jdk1.8.0_73/src.zip!/java/util/HashSet.java</url>
-          <line>333</line>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/Java/jdk1.8.0_382/src.zip!/java/util/PriorityQueue.java</url>
-          <line>781</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/JNDI/JNDI_RMI/JNDIRMIClinet.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/JNDI/JNDI_LDAP/JNDILDAPClinet.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="50" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/Java/jdk1.8.0_73/jre/lib/rt.jar!/com/sun/jndi/ldap/LdapCtx.class</url>
-          <line>665</line>
-          <option name="timeStamp" value="51" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/Java/jdk1.8.0_73/jre/lib/rt.jar!/com/sun/jndi/ldap/LdapCtx.class</url>
-          <line>721</line>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/alibaba/fastjson/1.2.24/fastjson-1.2.24-sources.jar!/com/alibaba/fastjson/util/FieldInfo.java</url>
-          <line>459</line>
-          <option name="timeStamp" value="109" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/Java/jdk1.8.0_382/src.zip!/com/sun/org/apache/bcel/internal/util/ClassLoader.java</url>
-          <line>114</line>
-          <option name="timeStamp" value="127" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/Java/jdk1.8.0_382/src.zip!/com/sun/org/apache/xalan/internal/xsltc/trax/TemplatesImpl.java</url>
-          <line>448</line>
-          <option name="timeStamp" value="132" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/Java/jdk1.8.0_382/src.zip!/com/sun/org/apache/xalan/internal/xsltc/trax/TemplatesImpl.java</url>
-          <line>506</line>
-          <option name="timeStamp" value="135" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/Java/jdk1.8.0_382/src.zip!/com/sun/org/apache/xalan/internal/xsltc/trax/TemplatesImpl.java</url>
-          <line>418</line>
-          <option name="timeStamp" value="136" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/Java/jdk1.8.0_382/src.zip!/com/sun/org/apache/bcel/internal/util/ClassLoader.java</url>
-          <line>126</line>
-          <option name="timeStamp" value="137" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/Java/jdk1.8.0_382/src.zip!/com/sun/org/apache/bcel/internal/util/ClassLoader.java</url>
-          <line>167</line>
-          <option name="timeStamp" value="138" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/org/apache/tomcat/tomcat-dbcp/9.0.20/tomcat-dbcp-9.0.20-sources.jar!/org/apache/tomcat/dbcp/dbcp2/BasicDataSource.java</url>
-          <line>479</line>
-          <option name="timeStamp" value="139" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/org/apache/tomcat/tomcat-dbcp/9.0.20/tomcat-dbcp-9.0.20-sources.jar!/org/apache/tomcat/dbcp/dbcp2/BasicDataSource.java</url>
-          <line>598</line>
-          <option name="timeStamp" value="140" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/org/apache/tomcat/tomcat-dbcp/9.0.20/tomcat-dbcp-9.0.20-sources.jar!/org/apache/tomcat/dbcp/dbcp2/BasicDataSource.java</url>
-          <line>808</line>
-          <option name="timeStamp" value="141" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/Java/jdk1.8.0_382/src.zip!/java/net/Inet4Address.java</url>
-          <line>85</line>
-          <option name="timeStamp" value="142" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Fastjson/version24/poc24JdbcRowSectimpl.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="143" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/alibaba/fastjson/1.2.25/fastjson-1.2.25-sources.jar!/com/alibaba/fastjson/parser/DefaultJSONParser.java</url>
-          <line>321</line>
-          <option name="timeStamp" value="144" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/alibaba/fastjson/1.2.25/fastjson-1.2.25-sources.jar!/com/alibaba/fastjson/parser/ParserConfig.java</url>
-          <line>826</line>
-          <option name="timeStamp" value="149" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Fastjson/version25to41/poc25to41JNI.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="153" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/alibaba/fastjson/1.2.25/fastjson-1.2.25-sources.jar!/com/alibaba/fastjson/parser/DefaultJSONParser.java</url>
-          <line>367</line>
-          <option name="timeStamp" value="156" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/alibaba/fastjson/1.2.25/fastjson-1.2.25-sources.jar!/com/alibaba/fastjson/serializer/ObjectArrayCodec.java</url>
-          <line>173</line>
-          <option name="timeStamp" value="157" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/alibaba/fastjson/1.2.25/fastjson-1.2.25-sources.jar!/com/alibaba/fastjson/parser/DefaultJSONParser.java</url>
-          <line>722</line>
-          <option name="timeStamp" value="159" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/alibaba/fastjson/1.2.25/fastjson-1.2.25-sources.jar!/com/alibaba/fastjson/parser/deserializer/DefaultFieldDeserializer.java</url>
-          <line>82</line>
-          <option name="timeStamp" value="162" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/alibaba/fastjson/1.2.25/fastjson-1.2.25-sources.jar!/com/alibaba/fastjson/parser/deserializer/JavaBeanDeserializer.java</url>
-          <line>593</line>
-          <option name="timeStamp" value="163" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/alibaba/fastjson/1.2.25/fastjson-1.2.25-sources.jar!/com/alibaba/fastjson/parser/deserializer/JavaBeanDeserializer.java</url>
-          <line>299</line>
-          <option name="timeStamp" value="165" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Fastjson/version25to41/poc25to41mappings.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="166" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/alibaba/fastjson/1.2.25/fastjson-1.2.25-sources.jar!/com/alibaba/fastjson/serializer/MiscCodec.java</url>
-          <line>320</line>
-          <option name="timeStamp" value="167" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/alibaba/fastjson/1.2.42/fastjson-1.2.42-sources.jar!/com/alibaba/fastjson/parser/DefaultJSONParser.java</url>
-          <line>310</line>
-          <option name="timeStamp" value="171" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/alibaba/fastjson/1.2.42/fastjson-1.2.42-sources.jar!/com/alibaba/fastjson/parser/ParserConfig.java</url>
-          <line>902</line>
-          <option name="timeStamp" value="172" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/Fastjson/version42/poc42.java</url>
-          <line>16</line>
-          <option name="timeStamp" value="173" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/alibaba/fastjson/1.2.43/fastjson-1.2.43-sources.jar!/com/alibaba/fastjson/parser/DefaultJSONParser.java</url>
-          <line>310</line>
-          <option name="timeStamp" value="174" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/alibaba/fastjson/1.2.43/fastjson-1.2.43-sources.jar!/com/alibaba/fastjson/parser/DefaultJSONParser.java</url>
-          <line>1655</line>
-          <option name="timeStamp" value="175" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/alibaba/fastjson/1.2.47/fastjson-1.2.47-sources.jar!/com/alibaba/fastjson/parser/DefaultJSONParser.java</url>
-          <line>278</line>
-          <option name="timeStamp" value="176" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/alibaba/fastjson/1.2.47/fastjson-1.2.47-sources.jar!/com/alibaba/fastjson/parser/DefaultJSONParser.java</url>
-          <line>315</line>
-          <option name="timeStamp" value="177" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/alibaba/fastjson/1.2.47/fastjson-1.2.47-sources.jar!/com/alibaba/fastjson/parser/ParserConfig.java</url>
-          <line>948</line>
-          <option name="timeStamp" value="178" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/CommonsCollection/Clown_CC6/POC1.java</url>
-          <line>43</line>
-          <option name="timeStamp" value="180" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1-sources.jar!/org/apache/commons/collections/map/LazyMap.java</url>
-          <line>156</line>
-          <option name="timeStamp" value="181" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1-sources.jar!/com/fasterxml/jackson/databind/ser/DefaultSerializerProvider.java</url>
-          <line>299</line>
-          <option name="timeStamp" value="182" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java</url>
-          <line>3905</line>
-          <option name="timeStamp" value="184" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/jackson/jacksonDefaultTyping/test.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="185" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1-sources.jar!/com/fasterxml/jackson/databind/ObjectMapper.java</url>
-          <line>4013</line>
-          <option name="timeStamp" value="186" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1-sources.jar!/com/fasterxml/jackson/databind/deser/BeanDeserializer.java</url>
-          <line>150</line>
-          <option name="timeStamp" value="187" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1-sources.jar!/com/fasterxml/jackson/databind/deser/BeanDeserializer.java</url>
-          <line>276</line>
-          <option name="timeStamp" value="188" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1-sources.jar!/com/fasterxml/jackson/databind/deser/std/StdValueInstantiator.java</url>
-          <line>269</line>
-          <option name="timeStamp" value="189" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1-sources.jar!/com/fasterxml/jackson/databind/deser/BeanDeserializer.java</url>
-          <line>287</line>
-          <option name="timeStamp" value="190" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/fasterxml/jackson/core/jackson-databind/2.9.10.1/jackson-databind-2.9.10.1-sources.jar!/com/fasterxml/jackson/databind/deser/impl/MethodProperty.java</url>
-          <line>140</line>
-          <option name="timeStamp" value="191" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/alibaba/fastjson/1.2.25/fastjson-1.2.25-sources.jar!/com/alibaba/fastjson/parser/deserializer/JavaBeanDeserializer.java</url>
-          <line>265</line>
-          <properties class="com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer" method="deserialze">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="158" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>jar://D:/phpstudy_pro/Extensions/apache-maven-3.9.0/Springrepo2/com/alibaba/fastjson/1.2.48/fastjson-1.2.48-sources.jar!/com/alibaba/fastjson/parser/ParserConfig.java</url>
-          <line>903</line>
-          <properties class="com.alibaba.fastjson.parser.ParserConfig" method="checkAutoType">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="179" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

